@@ -1,0 +1,372 @@
+{
+  "uuid": "d1b981346067395ae0e89d717c3b2d30",
+  "path": "Offline/ERA%20battery",
+  "name": "ERA battery",
+  "content": "",
+  "created_at": "2021-11-12 17:44:04",
+  "updated_at": "2021-11-19 21:50:55",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "61a6579e4a7d4661bec79214c8a72e95",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "66a732b490364ed8a867e69213a416ac": 1,
+        "2fa53d590f544429ab8fcbd581d715c1": 1,
+        "4c602698cd1d4da8a215ecc30bcfcd12": 1,
+        "c2758d8e25b94aabb24b939a538d7171": 2,
+        "f311d305983b4446a6418af4d4dbe0f7": 3,
+        "bb009484ef804a24ac5d18c54b249586": 7,
+        "24eeb2ceca08480b92b847b6a310acda": 13,
+        "ed9eb2faffb34286820a54a14e9e9e24": 2,
+        "2b8946b2183f431ca36c297473459104": 1,
+        "8f5cae780c0a8ec7b7b995e1b2effd15": 1,
+        "bb961d312ca6443997a8244c504f0d43": 1,
+        "51a711f23090499b932d86bec5368fe3": 1,
+        "2e0a58b33a44437286f98889c113b441": 2,
+        "1a7cb224e18c4031b535a558a89bfb40": 2
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "0.1uF",
+          6,
+          "C0402",
+          "C1,C8,C9,C10,C11,C12",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.47uF",
+          4,
+          "C0402",
+          "C2,C3,C4,C5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "0.01uF",
+          3,
+          "C0402",
+          "C6,C7,C13",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "0821ed6ea50c44f4909e4be7610e4198",
+            "uuid": "24eeb2ceca08480b92b847b6a310acda"
+          }
+        ],
+        [
+          "SD101BW-7-F",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C526757",
+            "BOM_Manufacturer": "Diodes Incorporated",
+            "BOM_Manufacturer Part": "SD101BWS-7-F",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "bb961d312ca6443997a8244c504f0d43"
+          }
+        ],
+        [
+          "SD103AWS-E3-08",
+          1,
+          "SOD-323_L1.8-W1.3-LS2.5-RD",
+          "D2",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "VISHAY",
+            "BOM_Manufacturer Part": "SD103AWS-E3-08",
+            "BOM_Supplier Part": "C142592",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "dd3cfd4941c4479cb7f2c598e6fde06c",
+            "uuid": "51a711f23090499b932d86bec5368fe3"
+          }
+        ],
+        [
+          "BZT52H-B5V6,115",
+          2,
+          "SOD-123F_L2.8-W1.8-LS3.7-RD",
+          "D3,D4",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C426804",
+            "BOM_Manufacturer": "Nexperia",
+            "BOM_Manufacturer Part": "BZT52H-B5V6,115",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "e8e78627020b4795961cd17fb8b42b10",
+            "uuid": "2e0a58b33a44437286f98889c113b441"
+          }
+        ],
+        [
+          "IRF8714TRPBF",
+          2,
+          "SOIC127P600X175-8N",
+          "Q1,Q2",
+          {
+            "BOM_Manufacturer Part": "",
+            "puuid": "476d1a2e9d794363a3ba9df02e18b0e6",
+            "uuid": "c2758d8e25b94aabb24b939a538d7171"
+          }
+        ],
+        [
+          "2N7002",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR",
+          "Q3",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "CJ",
+            "BOM_Manufacturer Part": "2N7002",
+            "BOM_Supplier Part": "C8545",
+            "BOM_JLCPCB Part Class": "Basic Part",
+            "puuid": "bade90667a6e4731855e9a223387b8a6",
+            "uuid": "8f5cae780c0a8ec7b7b995e1b2effd15"
+          }
+        ],
+        [
+          "0.005",
+          1,
+          "R1206",
+          "R1",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2fa53d590f544429ab8fcbd581d715c1"
+          }
+        ],
+        [
+          "10",
+          1,
+          "R0402",
+          "R2",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "10k",
+          2,
+          "R0402",
+          "R3,R10",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "49.9",
+          2,
+          "R0805",
+          "R4,R5",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "2k",
+          1,
+          "R1206",
+          "R6",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "8e9b1be4bcb6420dbd1d09bf04b02792",
+            "uuid": "2b8946b2183f431ca36c297473459104"
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R0402",
+          "R7,R11",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Manufacturer": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "100",
+          2,
+          "R0402",
+          "R8,R9",
+          {
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "BOM_Manufacturer Part": "",
+            "puuid": "fafd024f554e426eb74cf4a204aa88b0",
+            "uuid": "bb009484ef804a24ac5d18c54b249586"
+          }
+        ],
+        [
+          "NTC 100k",
+          2,
+          "R0805",
+          "R12,R13",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer": "FH",
+            "BOM_Manufacturer Part": "CMFB102J3200HANT",
+            "BOM_Supplier Part": "C75245",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "1a7cb224e18c4031b535a558a89bfb40"
+          }
+        ],
+        [
+          "MAX17320G22+",
+          1,
+          "QFN-24_L4.0-W4.0-P0.50-BL-EP2.6",
+          "U1",
+          {
+            "BOM_Supplier": "LCSC",
+            "BOM_Supplier Part": "C2914309",
+            "BOM_Manufacturer Part": "MAX17320G22+",
+            "BOM_JLCPCB Part Class": "Extended Part",
+            "puuid": "124f0b645f6047c498345629b5576efa",
+            "uuid": "66a732b490364ed8a867e69213a416ac"
+          }
+        ],
+        [
+          "Laptop battery connector",
+          1,
+          "6 PIN LAPTOP CONNECTOR",
+          "U2",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "a60eeec6af7e4ae9af2b202484d099d4",
+            "uuid": "4c602698cd1d4da8a215ecc30bcfcd12"
+          }
+        ],
+        [
+          "BATT-",
+          1,
+          "PAD-1X-5X5MM",
+          "U3",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d7ef0bf989114b9cb7dc21a84f83b81f",
+            "uuid": "f311d305983b4446a6418af4d4dbe0f7"
+          }
+        ],
+        [
+          "BATTM",
+          1,
+          "PAD-1X-5X5MM",
+          "U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d7ef0bf989114b9cb7dc21a84f83b81f",
+            "uuid": "f311d305983b4446a6418af4d4dbe0f7"
+          }
+        ],
+        [
+          "BATT+",
+          1,
+          "PAD-1X-5X5MM",
+          "U5",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "d7ef0bf989114b9cb7dc21a84f83b81f",
+            "uuid": "f311d305983b4446a6418af4d4dbe0f7"
+          }
+        ]
+      ],
+      "updateTime": 1637186887,
+      "createTime": 1636735711,
+      "histories": [],
+      "created_at": "2021-11-12 17:48:31",
+      "updated_at": "2021-11-17 23:08:07"
+    },
+    {
+      "uuid": "918c9473b71beb4dace24d2daec09545",
+      "puuid": "d1b981346067395ae0e89d717c3b2d30",
+      "title": "PCB_ERA battery",
+      "filename": "PCB_ERA battery.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 2,
+        "e8e78627020b4795961cd17fb8b42b10": 2,
+        "476d1a2e9d794363a3ba9df02e18b0e6": 2,
+        "bade90667a6e4731855e9a223387b8a6": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 2,
+        "b60f399a7a7e41848b2be1eb49c79141": 4,
+        "124f0b645f6047c498345629b5576efa": 1,
+        "d7ef0bf989114b9cb7dc21a84f83b81f": 3,
+        "0821ed6ea50c44f4909e4be7610e4198": 13,
+        "fafd024f554e426eb74cf4a204aa88b0": 7,
+        "a60eeec6af7e4ae9af2b202484d099d4": 1
+      },
+      "BOM": [],
+      "updateTime": 1637355055,
+      "createTime": 1637001105,
+      "histories": [],
+      "created_at": "2021-11-15 19:31:45",
+      "updated_at": "2021-11-19 21:50:55"
+    }
+  ],
+  "sort": [],
+  "title": "ERA battery",
+  "foldername": "ERA battery",
+  "schfilename": "ERA battery.json",
+  "schfilemtime": 1637186887105
+}
