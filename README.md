@@ -73,7 +73,7 @@ After you have your board configured correctly you can connect the battery pack 
 
 You can now open the FTDI software and use it to program the board with the provided INI file inside the Firmware folder. After your board has been programmed you are good to go. You can disconnect the pack from the computer and charge it in the Aibo.
 
-For more details on how to use the finished project you can look at the user manual for this battery: ![User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
+For more details on how to use the finished project you can look at the user manual for this battery: [User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
 
 Note that you may need to pull the battery out and re-insert it from the Aibo if it will not start up/play the sad melody. Additionally the battery pack may need 1 or 2 cycles before Aibo will show the correct charging pose. This is because the fuel gauge needs to calibrate itself to work correctly. After it has done that you shouldn't remove the cells any longer or the calibration data will be lost (the programming will stay however).
 
@@ -85,7 +85,7 @@ I don't offer a ready to go battery packs. In order to get one of those please c
 
 ## Help and support
 
-As always... try reading the user manual for this project first: ![User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
+As always... try reading the user manual for this project first: [User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
 
 If you need help with anything that is not covered by the manual, contact me through github (open an issue here). You can also check my website for other contact information: http://www.r00li.com .
 
