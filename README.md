@@ -1,6 +1,6 @@
 # Sony Aibo ERS-XXX battery
 
-**A replacement battery pack for older Sony Aibo robot dogs - ERS-3xx/ERS-7/ERS-2xx (in progress).**
+**A replacement battery pack for older Sony Aibo robot dogs - ERS-3xx/ERS-7/ERS-2xx.**
 
 ![Main image](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/image_full.jpg?raw=true)
 
@@ -10,7 +10,7 @@ In the early 2000s Sony released a series of robot dogs under the name Aibo ([Wi
 
 The main aim of this project is to provide instructions for making replacement battery packs for the original series of Aibos. Contained here is a redesigned battery protection/communication PCB created using modern readily available components based around the [Maxim MAX17320](https://www.maximintegrated.com/en/products/power/battery-management/MAX17320.html) battery fuel gauge.
 
-Currently supported and tested are ERS-3xx and ERS-7 Aibos (since they use the same battery pack). Support for ERS-2xx is coming soon (should be just a small PCB redesign and maybe software change). The older ERS-11X Aibos use battery packs using HDQ communication standard (while the newer ones use SMBUS) so they are not supported for now.
+Currently supported and tested are ERS-3xx, ERS-7 (since they use the same battery pack) and ERS-2xx Aibos. The older ERS-11X Aibos use battery packs using HDQ communication standard (while the newer ones use SMBUS) so they are not supported for now.
   
 
 ## Building one yourself
@@ -30,6 +30,8 @@ In order to build this you will need the following (plus some more or less speci
   - Using 18500 gives you an option of making the cells easily removable. In this case you will need a few standard AAA battery contacts to assemble into the case. Note that cells with high enough capacity and current are harder to find.
 - Battery case that will fit inside of an Aibo (see below)
 - A way to program the battery pack (see Firmware section)
+
+Note that ERS-2xx and ERS-3xx boards are almost identical so the instructions are the same. The only real difference is the placement of the battery connector and a few sorrounding components.
 
 Assemble the board according to the BOM/assembly guide (found in Misc folder). Note that this is using primarily 0402 sized SMD components so be sure that your soldering skills are appropriate. For ordering parts use the ones written in the BOM - there are a few changes as to what is written in the schematic although both variants should work (when buying MAX17320 make sure that you get the I2C version). When assembling the board install the battery connector last. Note that this one is assembled slightly offset from the board, so it is recommended that you put the board into the case  together with the connector and only then solder the connector. Note that connector is mounted on the other side than the rest of the components.
 
@@ -69,21 +71,23 @@ After you have your board configured correctly you can connect the battery pack 
     
     * 4.7k Pull up resistors are needed on Data and Clk pins
 
-You can now open the FTDI software and use it to program the board with the provided INI file inside the Firmware folder. After your board has been programmed you are good to go. You can disconnect the pack from the computer and charge it in the Aibo. 
+You can now open the FTDI software and use it to program the board with the provided INI file inside the Firmware folder. After your board has been programmed you are good to go. You can disconnect the pack from the computer and charge it in the Aibo.
+
+For more details on how to use the finished project you can look at the user manual for this battery: ![User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
 
 Note that you may need to pull the battery out and re-insert it from the Aibo if it will not start up/play the sad melody. Additionally the battery pack may need 1 or 2 cycles before Aibo will show the correct charging pose. This is because the fuel gauge needs to calibrate itself to work correctly. After it has done that you shouldn't remove the cells any longer or the calibration data will be lost (the programming will stay however).
 
-![Maxim programming software](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
+![Maxim programming software](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Manual/battery_instructions.pdf?raw=true)
 
 ## Can I buy a ready to go battery pack?
 
-I will be selling pre-assembled 18500 packs where you just need to install the cells yourself. Stay tuned for more information. 
-
-*Updated 31.1.2022:* A few test units will be available for sale in a few weeks - as soon as I get all of the needed parts.
+I don't offer a ready to go battery packs. In order to get one of those please contact [Ebi](https://ebisempire.com). He buys the boards from me and builds them into working ready-to-go battery packs. 
 
 ## Help and support
 
-If you need help with anything contact me through github (open an issue here). You can also check my website for other contact information: http://www.r00li.com .
+As always... try reading the user manual for this project first: ![User manual](https://github.com/r00li/Aibo-ERS-xxx-battery/blob/main/Misc/Capture_empty2.PNG?raw=true)
+
+If you need help with anything that is not covered by the manual, contact me through github (open an issue here). You can also check my website for other contact information: http://www.r00li.com .
 
 ## Special thanks
 

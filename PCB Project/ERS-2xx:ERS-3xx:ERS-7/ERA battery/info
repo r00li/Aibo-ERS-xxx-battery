@@ -4,7 +4,7 @@
   "name": "ERA battery",
   "content": "",
   "created_at": "2021-11-12 17:44:04",
-  "updated_at": "2021-11-19 21:50:55",
+  "updated_at": "2022-03-31 19:13:39",
   "stick": "",
   "documents": [
     {
@@ -190,13 +190,27 @@
         ],
         [
           "49.9",
-          2,
+          1,
           "R0805",
-          "R4,R5",
+          "R4",
           {
             "BOM_Supplier Part": "",
             "BOM_Supplier": "",
             "BOM_Manufacturer Part": "",
+            "puuid": "b60f399a7a7e41848b2be1eb49c79141",
+            "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
+          }
+        ],
+        [
+          "49.9",
+          1,
+          "R0805",
+          "R5",
+          {
+            "BOM_Supplier Part": "C269747",
+            "BOM_Supplier": "LCSC",
+            "BOM_Manufacturer Part": "RMC080549.91%N",
+            "BOM_Manufacturer": "Tyohm",
             "puuid": "b60f399a7a7e41848b2be1eb49c79141",
             "uuid": "ed9eb2faffb34286820a54a14e9e9e24"
           }
@@ -328,11 +342,11 @@
           }
         ]
       ],
-      "updateTime": 1637186887,
+      "updateTime": 1647881522,
       "createTime": 1636735711,
       "histories": [],
       "created_at": "2021-11-12 17:48:31",
-      "updated_at": "2021-11-17 23:08:07"
+      "updated_at": "2022-03-21 17:52:02"
     },
     {
       "uuid": "918c9473b71beb4dace24d2daec09545",
@@ -362,11 +376,39 @@
       "histories": [],
       "created_at": "2021-11-15 19:31:45",
       "updated_at": "2021-11-19 21:50:55"
+    },
+    {
+      "uuid": "22a321bdb9f778d9de85780b883f7711",
+      "puuid": "d1b981346067395ae0e89d717c3b2d30",
+      "title": "PCB_ERA battery 2xx",
+      "filename": "PCB_ERA battery 2xx.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "dd3cfd4941c4479cb7f2c598e6fde06c": 2,
+        "e8e78627020b4795961cd17fb8b42b10": 2,
+        "476d1a2e9d794363a3ba9df02e18b0e6": 2,
+        "bade90667a6e4731855e9a223387b8a6": 1,
+        "8e9b1be4bcb6420dbd1d09bf04b02792": 2,
+        "b60f399a7a7e41848b2be1eb49c79141": 4,
+        "124f0b645f6047c498345629b5576efa": 1,
+        "d7ef0bf989114b9cb7dc21a84f83b81f": 3,
+        "0821ed6ea50c44f4909e4be7610e4198": 13,
+        "fafd024f554e426eb74cf4a204aa88b0": 7
+      },
+      "BOM": [],
+      "updateTime": 1648746819,
+      "createTime": 1648407389,
+      "histories": [],
+      "created_at": "2022-03-27 20:56:29",
+      "updated_at": "2022-03-31 19:13:39"
     }
   ],
   "sort": [],
   "title": "ERA battery",
   "foldername": "ERA battery",
   "schfilename": "ERA battery.json",
-  "schfilemtime": 1637186887105
+  "schfilemtime": 1647881522039
 }
